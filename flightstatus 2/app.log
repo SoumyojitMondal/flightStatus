@@ -1,0 +1,32 @@
+2023-08-04 16:53:13,472 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] Starting FlightstatusApplicationTests using Java 17.0.7 with PID 34277 (started by soumyojitmondal in /Users/soumyojitmondal/Desktop/flightstatus)
+2023-08-04 16:53:13,473 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-04 16:53:14,654 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] Started FlightstatusApplicationTests in 1.314 seconds (process running for 1.774)
+2023-08-04 16:53:18,952 [INFO] com.elasticsearch.flightstatus.FlightstatusApplication [main] Starting FlightstatusApplication using Java 17.0.7 with PID 34305 (/Users/soumyojitmondal/Desktop/flightstatus/target/classes started by soumyojitmondal in /Users/soumyojitmondal/Desktop/flightstatus)
+2023-08-04 16:53:18,953 [INFO] com.elasticsearch.flightstatus.FlightstatusApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-04 16:53:19,482 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-08-04 16:53:19,482 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-04 16:53:19,544 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-04 16:53:19,999 [INFO] com.elasticsearch.flightstatus.FlightstatusApplication [main] Started FlightstatusApplication in 1.229 seconds (process running for 1.37)
+2023-08-04 16:53:39,449 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 16:53:39,576 [INFO] com.elasticsearch.flightstatus.controller.FlightStatusController [http-nio-8080-exec-1] Flight status search invoked with parameters -- flight no: EW110, flight date: 2023-07-20
+2023-08-04 16:53:39,712 [INFO] com.elasticsearch.flightstatus.controller.FlightStatusController [http-nio-8080-exec-1] Event count for the searched flight is: 2
+2023-08-04 18:00:32,849 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] Starting FlightstatusApplicationTests using Java 17.0.7 with PID 36071 (started by soumyojitmondal in /Users/soumyojitmondal/Desktop/flightstatus)
+2023-08-04 18:00:32,850 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-04 18:00:34,005 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] Started FlightstatusApplicationTests in 1.29 seconds (process running for 1.73)
+2023-08-04 19:03:40,843 [INFO] com.elasticsearch.flightstatus.FlightstatusApplication [main] Starting FlightstatusApplication using Java 17.0.7 with PID 37988 (/Users/soumyojitmondal/Desktop/flightstatus/target/classes started by soumyojitmondal in /Users/soumyojitmondal/Desktop/flightstatus)
+2023-08-04 19:03:40,844 [INFO] com.elasticsearch.flightstatus.FlightstatusApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-04 19:03:41,477 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-08-04 19:03:41,477 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-04 19:03:41,528 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-04 19:03:42,123 [INFO] com.elasticsearch.flightstatus.FlightstatusApplication [main] Started FlightstatusApplication in 1.486 seconds (process running for 1.725)
+2023-08-04 19:04:08,202 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 19:04:22,256 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-10] Init duration for springdoc-openapi is: 134 ms
+2023-08-04 20:12:07,621 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] Starting FlightstatusApplicationTests using Java 17.0.7 with PID 40276 (started by soumyojitmondal in /Users/soumyojitmondal/Desktop/flightstatus)
+2023-08-04 20:12:07,622 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-04 20:12:08,764 [INFO] com.elasticsearch.flightstatus.FlightstatusApplicationTests [main] Started FlightstatusApplicationTests in 1.288 seconds (process running for 1.727)
+2023-08-04 20:12:25,753 [INFO] com.elasticsearch.flightstatus.FlightStatusApplicationMockitoTest [main] Starting FlightStatusApplicationMockitoTest using Java 17.0.7 with PID 40304 (started by soumyojitmondal in /Users/soumyojitmondal/Desktop/flightstatus)
+2023-08-04 20:12:25,754 [INFO] com.elasticsearch.flightstatus.FlightStatusApplicationMockitoTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-04 20:12:26,803 [INFO] com.elasticsearch.flightstatus.FlightStatusApplicationMockitoTest [main] Started FlightStatusApplicationMockitoTest in 1.195 seconds (process running for 1.62)
+2023-08-04 20:12:26,924 [INFO] com.elasticsearch.flightstatus.controller.FlightStatusController [main] Create flight event invoked with parameters -- flight no: EW1234, event name: Scheduled, event time: 2023-08-03 10:10:10
+2023-08-04 20:12:26,935 [INFO] com.elasticsearch.flightstatus.controller.FlightStatusController [main] Flight status search invoked with parameters -- flight no: EW1234, flight date: 2023-08-03
+2023-08-04 20:12:26,935 [INFO] com.elasticsearch.flightstatus.controller.FlightStatusController [main] Event count for the searched flight is: 0

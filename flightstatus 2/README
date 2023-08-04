@@ -1,0 +1,53 @@
+=======================================
+Brief Overview of the application:
+=======================================
+This is a SpringBoot application which epxoses two endpoints:
+1. Create flight status events in the ElasticSearch. For this project I have considered events as Scheduled,
+Boarding started, Boarding completed, Departed, Arrived.
+2. Retrieve all events for a specific flight
+========================================
+Technology Stack:
+=========================================
+1. SpringBoot
+2. ElasticSearch
+3 Kibana
+==========================================
+Endpoints:
+==========================================
+http://18.212.180.227:8080/getStatus
+Method Type: GET
+RequestBody:
+{
+  "flightNo":"EW120",           //Mandatory field. Minimum 5 char, Maximum 6 char length
+  "flightDate":"2023-07-20"     //Mandatory field. YYYY-MM-DD format
+}
+
+http://18.212.180.227:8080/setStatus
+Method Type: POST
+BasicAuth:
+username: admin
+password:admin@123
+RequestBody:
+{
+  "flightNo":"EW121",                   //Mandatory field. Minimum 5 char, Maximum 6 char length
+  "eventName": "Scheduled",             //Mandatory field.
+  "eventTime":"2023-07-21 13:05:35"     //Mandatory field. YYYY-MM-DD HH:MM:SS format
+}
+==============================================
+Kibana Dashboard URL:
+==============================================
+http://18.212.180.227:5601/app/dashboards#/view/fb629510-2721-11ee-adda-4172623d742d?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))
+
+================================================
+Run the application:
+================================================
+Building Project:
+mvn clean
+mvn install
+
+Application setup:
+1. Create a directory ./elasticsearch/elasticsearch-data. This is where the elasticsearch data will be residing.
+Please update the path in docker-compose.yaml accordingly.
+2. Create a directory ./flightsearch. Place the application jar, Docker file and docker-compose.yaml in the directory.
+3. Execute docker-compose up -d
+4. Elasticsearch url is mentioned inside application.properties file. Please update the URL accordingly.
